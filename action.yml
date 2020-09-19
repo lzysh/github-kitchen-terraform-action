@@ -1,9 +1,9 @@
 # action.yml
 name: "Kitchen Terraform"
-description: "Greet someone and record the time"
+description: "Run kitchen commands"
 inputs:
   kitchen-command: # id of input
-    description: "The command to run for example: test"
+    description: "The command to run for example: help"
     required: true
     default: "help"
 runs:
