@@ -8,8 +8,9 @@ Kitchen-Terraform provides a set of Kitchen plugins which enable the use of Kitc
 
 **Required** The name of the command to run. Default `"help"`.
 
+More Examples:
+
 ```none
-Commands:
   converge [INSTANCE|REGEXP|all]          # Change instance state to converge. Use a provisioner to configure...
   create [INSTANCE|REGEXP|all]            # Change instance state to create. Start one or more instances
   destroy [INSTANCE|REGEXP|all]           # Change instance state to destroy. Delete all information for one ...
