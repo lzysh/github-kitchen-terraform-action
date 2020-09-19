@@ -8,6 +8,17 @@ Kitchen-Terraform provides a set of Kitchen plugins which enable the use of Kitc
 
 **Required** The name of the command to run. Default `"help"`.
 
+```none
+Commands:
+  converge [INSTANCE|REGEXP|all]          # Change instance state to converge. Use a provisioner to configure...
+  create [INSTANCE|REGEXP|all]            # Change instance state to create. Start one or more instances
+  destroy [INSTANCE|REGEXP|all]           # Change instance state to destroy. Delete all information for one ...
+  help [COMMAND]                          # Describe available commands or one specific command
+  test [INSTANCE|REGEXP|all]              # Test (destroy, create, converge, setup, verify and destroy) one o...
+  verify [INSTANCE|REGEXP|all]            # Change instance state to verify. Run automated tests on one or mo...
+  version                                 # Print Kitchen's version information
+```
+
 ## Example usage
 
 uses: idexx-labs/github-kitchen-terraform-action@v1
