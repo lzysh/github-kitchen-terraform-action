@@ -1,0 +1,13 @@
+# action.yml
+name: "Kitchen Terraform"
+description: "Greet someone and record the time"
+inputs:
+  kitchen-command: # id of input
+    description: "The command to run for example: test"
+    required: true
+    default: "help"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.kitchen-command }}
