@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM hashicorp/terraform:0.12.29
+FROM hashicorp/terraform:0.13.3
 
 ENV BUILD_PACKAGES bash ruby-dev build-base
 ENV RUBY_PACKAGES ruby ruby-bundler
