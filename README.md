@@ -23,7 +23,8 @@ More Examples:
 ## Example usage
 
 ```yaml
-uses: lzysh/github-kitchen-terraform-action@v1.0.0
-with:
-  kitchen-command: 'test'
+- name: Kitchen Test
+  uses: lzysh/github-kitchen-terraform-action@v1.0.0
+  with:
+    kitchen-command: "test"
 ```
