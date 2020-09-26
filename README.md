@@ -22,6 +22,8 @@ More Examples:
 
 ## Example usage
 
-uses: idexx-labs/github-kitchen-terraform-action@v1
+```yaml
+uses: lzysh/github-kitchen-terraform-action@v1.0.0
 with:
   kitchen-command: 'test'
+```
