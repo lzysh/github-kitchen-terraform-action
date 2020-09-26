@@ -1,6 +1,8 @@
 # action.yml
 name: "Kitchen Terraform"
 description: "Run kitchen commands"
+icon: "arrow-left"
+color: "black"
 inputs:
   kitchen-command: # id of input
     description: "The command to run for example: help"
